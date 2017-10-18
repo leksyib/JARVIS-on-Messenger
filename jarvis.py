@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def about():
-    return 'Just A Rather Very Intelligent System, now on Messenger!'
+    return 'Hey! I am Jarvis!'
 
 
 @app.route('/process/')
